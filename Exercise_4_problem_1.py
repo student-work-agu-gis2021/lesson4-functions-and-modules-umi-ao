@@ -21,13 +21,17 @@
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
   return (temp_fahrenheit-32)/1.8
-  
+  ## this function is the input Fahrenheit temperature converted to Celsius
+
 # ### Problem 1 tests
 # 
 # Check that the function produces correct answers for:
 # 1. What is 48° Fahrenheit in Celsius? 
+
+print("48° Fahrenheit in Celsius is",fahr_to_celsius(48))
 # 2. What about 71° Fahrenheit in Celsius?
 
+print("71° Fahrenheit in Celsius is",fahr_to_celsius(71))
 # ### Check your code
 # 
 # - Make sure you used the given variable names
