@@ -33,12 +33,16 @@
 ##And the return value returns integers 0, 1, 2, 3 and displays the class.
 
 def temp_classifier(temp_celsius):
+  ##Temperatures below -2 degrees Celsius  
   if(temp_celsius<-2):
     return 0
+  ##Temperatures equal or warmer than -2, but less than +2 degrees Celsius 
   elif(temp_celsius>=-2)and(temp_celsius<2):
     return 1
+  ##Temperatures equal or warmer than +2, but less than +15 degrees Celsius 
   elif(temp_celsius>=2)and(temp_celsius<15):
     return 2
+  ##Temperatures equal or warmer than +15 degrees Celsius          
   elif(temp_celsius>=15):
     return 3
 
@@ -50,7 +54,7 @@ def temp_classifier(temp_celsius):
 print("The class value for 16.5 degrees Celsius is ",temp_classifier(16.5))
 # 2. What is the class value for +2 degrees Celsius?
 # YOUR CODE HERE
-print("The class value for 16.5 degrees Celsius is ",temp_classifier(2))
+print("The class value for +2 degrees Celsius is ",temp_classifier(2))
 
 
 # ### Problem 2 tests
@@ -84,7 +88,7 @@ print("ok :)")
 # YOUR ANSWER HERE. Write your answer as comments
 #
 #
-#
+# Yes all achieved!!
 #
 #
 # YOUR ANSWER ENDS HERE
