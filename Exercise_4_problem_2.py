@@ -31,7 +31,6 @@
 ## The parameter is temperature in degrees Celsius. 
 
 ##And the return value returns integers 0, 1, 2, 3 and displays the class.
-
 def temp_classifier(temp_celsius):
   ##Temperatures below -2 degrees Celsius  
   if(temp_celsius<-2):
@@ -45,6 +44,7 @@ def temp_classifier(temp_celsius):
   ##Temperatures equal or warmer than +15 degrees Celsius          
   elif(temp_celsius>=15):
     return 3
+
 
 # Use your newly created function to print the answers to the following questions:
 

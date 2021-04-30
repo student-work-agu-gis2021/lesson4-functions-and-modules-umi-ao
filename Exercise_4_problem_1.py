@@ -19,10 +19,11 @@
 # - Adding comments in your code and a docstring that explains how to use your `fahr_to_celsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
 
 # YOUR CODE HERE
+ ## A function that converts Fahrenheit to Celsius, with an argument of Fahrenheit and a return value of Celsius.
+  
 def fahr_to_celsius(temp_fahrenheit):
   return (temp_fahrenheit-32)/1.8
-  ## this function is the input Fahrenheit temperature converted to Celsius
-
+ 
 # ### Problem 1 tests
 # 
 # Check that the function produces correct answers for:
@@ -51,7 +52,7 @@ print("71° Fahrenheit in Celsius is",fahr_to_celsius(71))
 #
 ##  1.Yes, the concept of function clear to me.
 #
-##  2. We can shorten the code and reduce mistakes
+##  2. We can shorten the code and reduce mistakes.
 #
 #
 
