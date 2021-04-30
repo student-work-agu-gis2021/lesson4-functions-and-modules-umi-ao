@@ -66,14 +66,16 @@ temp_data = [
 #         3. Add the `temp_class` value to the `temp_classes` list
 
 # YOUR CODE HERE
-import temp_functions as t
 
-temp_classes=[]
+# Import the `fahr_to_celsius` and `temp_classifier` functions from `temp_functions.py`
+import temp_functions as t
+#Created an empty list
+temp_classes = []
+#**Convert the Fahrenheit temperatures** in the `temp_data` list into Celsius and **classify the Celsius temperatures**
 
 for i in range(len(temp_data)):
-   temp_class=t.temp_classifier(t.fahr_to_celsius(temp_data[i]))
-   temp_classes.append(temp_class)
-
+    temp_class = t.temp_classifier(t.fahr_to_celsius(temp_data[i]))
+    temp_classes.append(temp_class)
 
 # #### Part 2 (continues)
 #
@@ -85,10 +87,10 @@ for i in range(len(temp_data)):
 
 # YOUR CODE HERE
 
-zeros=temp_classes.count(0)
-ones=temp_classes.count(1)
-twos=temp_classes.count(2)
-threes=temp_classes.count(3)
+zeros = temp_classes.count(0)
+ones = temp_classes.count(1)
+twos = temp_classes.count(2)
+threes = temp_classes.count(3)
 
 # **TIP**: You might want to consider using a [**count()** function](https://www.tutorialspoint.com/python3/list_count.htm) OR a for loop for this.
 
@@ -111,7 +113,7 @@ print(zeros, ones, twos, threes)
 
 # YOUR ANSWER HERE. Write your answer as comments (with #)
 #
-#
+#Classify the temperature in the temp_data into classes, the number of  0 class is 137, 1 class is 85 2 class is 85,2 class is 114, 3 class is 0.
 #
 #
 #
